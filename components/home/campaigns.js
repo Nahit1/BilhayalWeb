@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import CampaignsImage from '../../public/svg/campaigns/campaigns-1.svg'
-import CampaignsImage2 from '../../public/svg/campaigns/campaigns-2.svg'
-import CampaignsImage3 from '../../public/svg/campaigns/campaigns-3.svg'
-import CampaignsImage4 from '../../public/svg/campaigns/campaigns-4.svg'
+// import Image from 'next/image'
+// import CampaignsImage from '../../public/svg/campaigns/campaigns-1.svg'
+// import CampaignsImage2 from '../../public/svg/campaigns/campaigns-2.svg'
+// import CampaignsImage3 from '../../public/svg/campaigns/campaigns-3.svg'
+// import CampaignsImage4 from '../../public/svg/campaigns/campaigns-4.svg'
 import Button from '../ui/button'
 import Link from 'next/link'
 
@@ -19,13 +19,13 @@ function Campaigns() {
       <div className="grid grid-cols-4 gap-16">
         <div className="flex flex-col items-center">
           <div className="relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -39,13 +39,13 @@ function Campaigns() {
         </div>
         <div className="flex flex-col items-center">
           <div className="relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage2}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -59,13 +59,13 @@ function Campaigns() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage3}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex flex-col items-start w-full pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -79,13 +79,13 @@ function Campaigns() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage4}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">

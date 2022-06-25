@@ -1,6 +1,6 @@
 import Slider from 'react-slick'
-import Image from 'next/image'
-import Banner from '../../public/svg/banner.svg'
+// import Image from 'next/image'
+// import Banner from '../../public/svg/banner.svg'
 
 const Responsive = () => {
   const settings = {
@@ -41,22 +41,25 @@ const Responsive = () => {
     <Slider {...settings}>
       <div className="relative">
         <div className="h-full">
-          <Image
+        
+        <img src={require('../../public/svg/banner.svg')} />
+          {/* <Image
             src={Banner}
             alt="Bil Hayal"
             layout="fill"
             objectFit="contain"
-          />
+          /> */}
         </div>
       </div>
       <div className="relative">
         <div className="h-full">
-          <Image
+        <img src={require('../../public/svg/banner.svg')} />
+          {/* <Image
             src={Banner}
             alt="Bil Hayal"
             layout="fill"
             objectFit="contain"
-          />
+          /> */}
         </div>
       </div>
     </Slider>

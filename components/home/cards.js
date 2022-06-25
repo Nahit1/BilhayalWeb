@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import CardsImage from '../../public/svg/cards/cards.svg'
-import CardsImage1 from '../../public/svg/cards/cards-2.svg'
-import CardsImage2 from '../../public/svg/cards/cards-3.svg'
+// import Image from 'next/image'
+// import CardsImage from '../../public/svg/cards/cards.svg'
+// import CardsImage1 from '../../public/svg/cards/cards-2.svg'
+// import CardsImage2 from '../../public/svg/cards/cards-3.svg'
 
 function Cards() {
   return (
@@ -9,46 +9,46 @@ function Cards() {
       <div className="flex flex-col mt-10">
         <div className="flex flex-row">
           <div className="relative w-1/2 h-96 mr-3">
-            <Image
+            {/* <Image
               src={CardsImage}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               objectPosition="center"
               className=" rounded-xl"
-            />
+            /> */}
           </div>
           <div className="relative w-1/2 h-96 mr-3">
-            <Image
+            {/* <Image
               src={CardsImage1}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               objectPosition="center"
               className=" rounded-xl"
-            />
+            /> */}
           </div>
         </div>
         <div className="flex flex-row mt-5">
           <div className="relative w-1/2 h-96 mr-3">
-            <Image
+            {/* <Image
               src={CardsImage2}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               objectPosition="center"
               className=" rounded-xl"
-            />
+            /> */}
           </div>
           <div className="relative w-1/2 h-96 mr-3">
-            <Image
+            {/* <Image
               src={CardsImage}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               objectPosition="center"
               className=" rounded-xl"
-            />
+            /> */}
           </div>
         </div>
       </div>

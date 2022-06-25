@@ -1,9 +1,9 @@
 import * as React from 'react'
-import Image from 'next/image'
-import FooterImage from '../../public/svg/footer/footer-logo.svg'
-import Twitter from '../../public/svg/footer/twitter.svg'
-import Facebook from '../../public/svg/footer/facebook.svg'
-import Linkedin from '../../public/svg/footer/linkedin.svg'
+// import Image from 'next/image'
+// import FooterImage from '../../public/svg/footer/footer-logo.svg'
+// import Twitter from '../../public/svg/footer/twitter.svg'
+// import Facebook from '../../public/svg/footer/facebook.svg'
+// import Linkedin from '../../public/svg/footer/linkedin.svg'
 
 function Footer() {
   return (
@@ -13,12 +13,12 @@ function Footer() {
           <div className="flex flex-row items-start">
             <div className="w-2/5 flex flex-col">
               <div className="relative">
-                <Image
+                {/* <Image
                   src={FooterImage}
                   alt="Bil Hayal"
                   width={100}
                   height={100}
-                />
+                /> */}
               </div>
               <p className="text-sm w-3/4 text-black">
                 Cupiditate qui amet non quam sunt ex. Ad culpa eum nostrum aut
@@ -28,23 +28,23 @@ function Footer() {
               </p>
               <div className="flex flex-row mt-5">
                 <div className="relative mr-2">
-                  <Image src={Twitter} alt="Bil Hayal" width={35} height={35} />
+                  {/* <Image src={Twitter} alt="Bil Hayal" width={35} height={35} /> */}
                 </div>
                 <div className="relative mr-2">
-                  <Image
+                  {/* <Image
                     src={Facebook}
                     alt="Bil Hayal"
                     width={35}
                     height={35}
-                  />
+                  /> */}
                 </div>
                 <div className="relative">
-                  <Image
+                  {/* <Image
                     src={Linkedin}
                     alt="Bil Hayal"
                     width={35}
                     height={35}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

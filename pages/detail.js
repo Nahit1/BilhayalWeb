@@ -1,9 +1,9 @@
 import Layout from './../components/layout/layout'
 import Head from 'next/head'
-import Image from 'next/image'
-import sliderImage from '../public/svg/image-slider.svg'
-import colorsImage from '../public/svg/colors.svg'
-import colorsImage2 from '../public/svg/colors-2.svg'
+// import Image from 'next/image'
+// import sliderImage from '../public/svg/image-slider.svg'
+// import colorsImage from '../public/svg/colors.svg'
+// import colorsImage2 from '../public/svg/colors-2.svg'
 import Button from './../components/ui/button'
 
 function Detail() {
@@ -17,12 +17,12 @@ function Detail() {
         <div className=" flex flex-col w-1/3">
           <div className="flex flex-row">
             <div className="relative h-full">
-              <Image
+              {/* <Image
                 src={sliderImage}
                 alt="Bil Hayal"
                 width={650}
                 height={650}
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -68,36 +68,36 @@ function Detail() {
               </span>
               <div className="flex flex-row">
                 <div className="relative">
-                  <Image
+                  {/* <Image
                     src={colorsImage}
                     alt="Bil Hayal"
                     width={75}
                     height={75}
-                  />
+                  /> */}
                 </div>
                 <div className="relative">
-                  <Image
+                  {/* <Image
                     src={colorsImage2}
                     alt="Bil Hayal"
                     width={75}
                     height={75}
-                  />
+                  /> */}
                 </div>
                 <div className="relative">
-                  <Image
+                  {/* <Image
                     src={colorsImage}
                     alt="Bil Hayal"
                     width={75}
                     height={75}
-                  />
+                  /> */}
                 </div>
                 <div className="relative">
-                  <Image
+                  {/* <Image
                     src={colorsImage2}
                     alt="Bil Hayal"
                     width={75}
                     height={75}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

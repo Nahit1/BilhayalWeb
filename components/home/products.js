@@ -1,13 +1,13 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import Link from 'next/link'
-import CampaignsImage from '../../public/svg/campaigns/campaigns-1.svg'
-import CampaignsImage2 from '../../public/svg/campaigns/campaigns-2.svg'
-import CampaignsImage3 from '../../public/svg/campaigns/campaigns-3.svg'
-import CampaignsImage4 from '../../public/svg/campaigns/campaigns-4.svg'
-import CampaignsImage5 from '../../public/svg/campaigns/campaigns-6.svg'
-import CampaignsImage6 from '../../public/svg/campaigns/campaigns-7.svg'
-import CampaignsImage7 from '../../public/svg/campaigns/campaigns-8.svg'
-import CampaignsImage8 from '../../public/svg/campaigns/campaigns-9.svg'
+//import CampaignsImage from '../../public/svg/campaigns/campaigns-1.svg'
+// import CampaignsImage2 from '../../public/svg/campaigns/campaigns-2.svg'
+// import CampaignsImage3 from '../../public/svg/campaigns/campaigns-3.svg'
+// import CampaignsImage4 from '../../public/svg/campaigns/campaigns-4.svg'
+// import CampaignsImage5 from '../../public/svg/campaigns/campaigns-6.svg'
+// import CampaignsImage6 from '../../public/svg/campaigns/campaigns-7.svg'
+// import CampaignsImage7 from '../../public/svg/campaigns/campaigns-8.svg'
+// import CampaignsImage8 from '../../public/svg/campaigns/campaigns-9.svg'
 import Button from '../ui/button'
 
 function Products() {
@@ -32,13 +32,14 @@ function Products() {
       <div className="grid grid-cols-4 gap-16">
         <div className="flex flex-col items-center">
           <div className="relative w-full h-96 rounded-xl">
-            <Image
+          <img src={require('../../public/svg/campaigns/campaigns-1.svg')} />
+            {/* <Image
               src={CampaignsImage}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -52,13 +53,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage2}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -72,13 +73,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage3}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex flex-col items-start w-full pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -92,13 +93,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage4}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -112,13 +113,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage5}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -132,13 +133,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage6}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -152,13 +153,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage7}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">
@@ -172,13 +173,13 @@ function Products() {
         </div>
         <div className="flex flex-col items-center">
           <div className="custom-image relative w-full h-96 rounded-xl">
-            <Image
+            {/* <Image
               src={CampaignsImage8}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
-            />
+            /> */}
           </div>
           <div className="flex w-full flex-col items-start pt-4">
             <div className="flex text-lg font-semibold pt-2">

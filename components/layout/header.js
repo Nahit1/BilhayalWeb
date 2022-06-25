@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import LogoPic from '../../assets/svg/logo.svg'
-import Call from '../../assets/svg/call.svg'
-import Help from '../../assets/svg/help-web-button.svg'
-import Search from '../../assets/svg/search.svg'
-import Notificiation from '../../assets/svg/notification.svg'
-import User from '../../assets/svg/user.svg'
-import Shopping from '../../assets/svg/shopping-basket.svg'
+import LogoPic from '../../public/svg/logo.svg'
+import Call from '../../public/svg/call.svg'
+import Help from '../../public/svg/help-web-button.svg'
+import Search from '../../public/svg/search.svg'
+import Notificiation from '../../public/svg/notification.svg'
+import User from '../../public/svg/user.svg'
+import Shopping from '../../public/svg/shopping-basket.svg'
 
 function Header() {
   return (

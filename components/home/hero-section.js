@@ -1,6 +1,6 @@
 import Slider from 'react-slick'
 import Image from 'next/image'
-import Banner from '../../assets/svg/banner.svg'
+import Banner from '../../public/svg/banner.svg'
 
 const Responsive = () => {
   const settings = {

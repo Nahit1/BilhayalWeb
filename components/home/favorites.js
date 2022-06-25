@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import FavoritesImage from '../../assets/svg/favorite/favorite-1.svg'
-import FavoritesImage1 from '../../assets/svg/favorite/favorite-2.svg'
-import FavoritesImage3 from '../../assets/svg/favorite/favorite-3.svg'
-import FavoritesImage2 from '../../assets/svg/favorite/favorite-4.svg'
-import FavoritesImage5 from '../../assets/svg/favorite/favorite-5.svg'
-import FavoritesImage6 from '../../assets/svg/favorite/favorite-6.svg'
+import FavoritesImage from '../../public/svg/favorite/favorite-1.svg'
+import FavoritesImage1 from '../../public/svg/favorite/favorite-2.svg'
+import FavoritesImage3 from '../../public/svg/favorite/favorite-3.svg'
+import FavoritesImage2 from '../../public/svg/favorite/favorite-4.svg'
+import FavoritesImage5 from '../../public/svg/favorite/favorite-5.svg'
+import FavoritesImage6 from '../../public/svg/favorite/favorite-6.svg'
 
 function Favorites() {
   return (

@@ -1,9 +1,9 @@
 import * as React from 'react'
 import Image from 'next/image'
-import FooterImage from '../../assets/svg/footer/footer-logo.svg'
-import Twitter from '../../assets/svg/footer/twitter.svg'
-import Facebook from '../../assets/svg/footer/facebook.svg'
-import Linkedin from '../../assets/svg/footer/linkedin.svg'
+import FooterImage from '../../public/svg/footer/footer-logo.svg'
+import Twitter from '../../public/svg/footer/twitter.svg'
+import Facebook from '../../public/svg/footer/facebook.svg'
+import Linkedin from '../../public/svg/footer/linkedin.svg'
 
 function Footer() {
   return (

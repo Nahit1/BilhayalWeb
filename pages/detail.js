@@ -1,9 +1,9 @@
 import Layout from './../components/layout/layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import sliderImage from './../assets/svg/image-slider.svg'
-import colorsImage from './../assets/svg/colors.svg'
-import colorsImage2 from './../assets/svg/colors-2.svg'
+import sliderImage from '../public/svg/image-slider.svg'
+import colorsImage from '../public/svg/colors.svg'
+import colorsImage2 from '../public/svg/colors-2.svg'
 import Button from './../components/ui/button'
 
 function Detail() {

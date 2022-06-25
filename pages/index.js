@@ -1,4 +1,4 @@
-import Layout from './../components/layout/layout'
+import Layout from '../components/layout/layout'
 import Head from 'next/head'
 import HeroSection from '../components/home/hero-section'
 import Campaigns from '../components/home/campaigns'

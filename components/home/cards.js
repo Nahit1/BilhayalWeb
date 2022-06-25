@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import CardsImage from '../../assets/svg/cards/cards.svg'
-import CardsImage1 from '../../assets/svg/cards/cards-2.svg'
-import CardsImage2 from '../../assets/svg/cards/cards-3.svg'
+import CardsImage from '../../public/svg/cards/cards.svg'
+import CardsImage1 from '../../public/svg/cards/cards-2.svg'
+import CardsImage2 from '../../public/svg/cards/cards-3.svg'
 
 function Cards() {
   return (
@@ -32,7 +32,7 @@ function Cards() {
         <div className="flex flex-row mt-5">
           <div className="relative w-1/2 h-96 mr-3">
             <Image
-              src={CardsImage1}
+              src={CardsImage2}
               alt="Bil Hayal"
               layout="fill"
               objectFit="cover"

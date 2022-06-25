@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import CampaignsImage from '../../assets/svg/campaigns/campaigns-1.svg'
-import CampaignsImage2 from '../../assets/svg/campaigns/campaigns-2.svg'
-import CampaignsImage3 from '../../assets/svg/campaigns/campaigns-3.svg'
-import CampaignsImage4 from '../../assets/svg/campaigns/campaigns-4.svg'
+import CampaignsImage from '../../public/svg/campaigns/campaigns-1.svg'
+import CampaignsImage2 from '../../public/svg/campaigns/campaigns-2.svg'
+import CampaignsImage3 from '../../public/svg/campaigns/campaigns-3.svg'
+import CampaignsImage4 from '../../public/svg/campaigns/campaigns-4.svg'
 import Button from '../ui/button'
 import Link from 'next/link'
 
